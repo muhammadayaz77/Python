@@ -40,6 +40,7 @@ stud = {
   'name' : 'ayaz',
   'major' : 'CS'
 }
-del stud['major']
 
-print(stud )
+
+for key,value in stud.items():
+  print(key,value)
